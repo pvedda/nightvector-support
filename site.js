@@ -9,7 +9,7 @@
     if (contact.indexOf("https://") === 0) {
       var link = document.createElement("a");
       link.href = contact;
-      link.textContent = "Open a private-safe support request";
+      link.textContent = "Open a support request";
       link.rel = "noreferrer";
       node.replaceChildren(link);
       return;
